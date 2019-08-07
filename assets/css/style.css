@@ -214,6 +214,7 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* Mobile devices */
 @media screen and (max-width: 640px) {
   
   #logo, #masthead {
@@ -225,4 +226,9 @@ input[type=submit] {
     width: 70%;
     margin: 25px;
   }
+
+  .auth-image, .work {
+    width: 545px;    
+  }
+
 }
