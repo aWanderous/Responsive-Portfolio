@@ -13,7 +13,6 @@ body {
 /* general */
 
 .container {
-  width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
@@ -214,6 +213,23 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* Desktop layout */
+
+@media screen and (min-width: 980px) {
+  
+  #main-container {
+    margin:0px;
+  }
+}
+
+/* Tablet devices */
+@media screen and (max-width: 760px) {
+  
+  .work, .auth-image {
+    width: 46%;
+  }
+}
+
 /* Mobile devices */
 @media screen and (max-width: 640px) {
   
@@ -224,12 +240,4 @@ input[type=submit] {
   nav {
     width: 70%;
   }
-
-  /* Tablet devices */
-@media screen and (max-width: 760px) {
-  
-  .work, .auth-image {
-   width: 46%;
-  }
-
 }
